@@ -1,4 +1,9 @@
 import pandas as pd
+import datetime
+
+time = datetime.date()
+
+print(time)
 
 students = pd.read_csv("./datasets/students.csv")
 
